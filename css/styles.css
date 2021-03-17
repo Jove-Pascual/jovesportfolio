@@ -432,6 +432,8 @@ textarea::placeholder {
         grid-template-rows: 1fr;
     }
 
+    
+
     .hero-area {
         height:auto;
 
@@ -487,10 +489,26 @@ textarea::placeholder {
     .hero-text {
         justify-self:center;
         padding-left:10px;
+        font-size:10px;
     }
     
+    .hero-text h1 {
+        font-size:25px;
+    }
     .footer {
         margin-top:380px;
     }
     
+   .card {
+       width:90%;   }
+
+    .footer {
+        margin-top:500px;
+    }
+}
+
+@media(max-width:340px){
+    body {
+        display: none;
+    }
 }
